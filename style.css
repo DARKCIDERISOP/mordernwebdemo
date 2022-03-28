@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Raleway:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+body {
+    background-image: url(Background.png);
+    background-size: cover;
+    
+    color: white;
+}
+
+.OneDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.OneDiv h1 {
+    font-size: 72px;
+    background: linear-gradient(to right, #00416a, #799f0c, #ffe000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+.DividerI {
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: sans-serif;
+    user-select: none;
+    font-weight: 100;
+    align-items: center;
+}
+.OneDiv button {
+    border-radius: 100rem;
+    padding: 1rem;
+    font-family: 'Avenir Next';
+    font-size: 1rem;
+    padding: .5rem 3rem;
+    color: black;
+    width: 200px;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    transition: 0.65s;
+    cursor: pointer;
+}
+.OneDiv button a {
+    text-decoration: none;
+    color: #1b2b2b;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.OneDiv button:hover {
+    box-shadow: none;
+    color: white;
+}
+.bx-compass {
+    font-size: 40px;
+    padding: 1rem;
+}
+.bx-reset {
+    font-size: 40px;
+    padding: 1rem;
+}
+.center {
+    margin-top: 20vh;
+}
+.center h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-left: 140px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 120px;
+}
+.center button {
+    width: 150px;
+    height: 100px;
+    border-radius: 100rem;
+}
+.bx-right-arrow {
+    font-size: 50px;
+}
+.last {
+    margin-left: -192px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.btn {
+    border-radius: 100rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    padding: 8px;
+    color: black;
+    min-width: 100px;
+    width: 190px;
+    height: 100px;
+    box-shadow: 0 0 6px 0 rgba(112, 20, 20, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #aaff78, #0044ff);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    cursor: pointer;
+    transition: 0.6s;
+    margin-top: 100px;
+    margin-left: 200px;
+    
+}
+.btn:hover {
+    transform: scale(1);
+    
+        box-shadow: none;
+        color: white;
+    
+}
+.DividerII {
+    margin-top: 120px;
+    margin-left: 200px;
+}
